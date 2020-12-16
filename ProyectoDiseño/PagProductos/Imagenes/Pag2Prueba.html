@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Prueba Bootsrap</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" type="text/css" href="./CSS/Prueba2.css">
+    <link rel="stylesheet" ref="styles.css" />
+    <script src='main.js'></script>
+</head>
+<body>
+    <main class="container-fluid">
+        
+        <!-- ALERTA -->
+        <!-- Le pongo fixed-bottom para que no haya conflicto con el menú -->
+        <div class="alert alert-dismissible fade show alert-warning fixed-bottom">
+            Aviso de Cookies: Aseptalo.
+            <button type="button" class="close" data-dismiss="alert">
+                <span>Aceptar</span>
+            </button>
+        </div>
+
+        <header class="row">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Productos</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./Prueba2.html">Inicio</a>
+                                <a class="dropdown-item" href="./PruebaComidas.html">Alimentación</a>
+                                <a class="dropdown-item" href="./PruebaJuguetes.html">Juguetes</a>
+                                <a class="dropdown-item" href="./PruebaComplementos.html">Complementos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                        <!--Imagenes REdes Sociales-->
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link"><img class="tamañoPequeño" src="./Imagenes/RedesSociales/insta.jpg"></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link"><img class="tamañoPequeño" src="Imagenes/RedesSociales/Twitter.png"></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link"><img class="tamañoPequeño" src="Imagenes/RedesSociales/Tiktok.png"></a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="form-inline">
+                    <input class="btn btn-primary btn-sm mr-2" data-toggle="modal" data-target="#entrar" type="button" value="Login">
+                    <input class="btn btn-primary btn-sm" data-toggle="modal" data-target="#registro" type="button" value="Registro">
+                </form>
+            </nav>
+        </header>
+<div class="Principal">
+        <!--Clasificación de productos-->
+        <h1>Productos</h1>
+        <h3>En Zootopia disponemos de una gran variedad de productos para tu mascota y tu hogar</h3>
+        <div class="Contenedor1">
+        <section class="row justify-content-around">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="Contenedorimg">
+                    <a href="./PruebaJuguetes.html" data-toggle="tooltip" data-html="true" title="Ir a juguetes">
+                       <img src="Imagenes/Iconos/Huesoicon.png" class="card-img-top">
+                    </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Juguetes</h3>
+                        <div class="card-text">
+                            En Zootopia disponemos de una gran variedad de juguetes para tu mascota<br><p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="Contenedorimg">
+                    <a href="./PruebaComidas.html" data-toggle="tooltip" data-html="true" title="Ir a Alimentación">
+                        <img src="Imagenes/Iconos/comedero2.png" class="card-img-top">
+                    </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Alimentos</h3>
+                        <div class="card-text">
+                           En Zootopia contanmos con una gran variedad de alimentos de la mejor calidad para tu mascotas
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="Contenedorimg"> 
+                    <a href="./PruebaComplementos.html" data-toggle="tooltip" data-html="true" title="Ir a Complementos">
+                        <img src="Imagenes/Iconos/Caseta.png" class="card-img-top">
+                    </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Complementos</h3>
+                        <div class="card-text">
+                            En Zootopia disponemos de una gran variedad de complementos para tu hogar para que tus mascotas esten cómodas en casa
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </div>
+
+<h5>Pag 2 / 6</h5>
+
+    <div class="Productos">
+        <div class="P1">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/JuguetePerroPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P2">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P3">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/JuguetePerroPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P4">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <!--Segunda Fila-->
+        <div class="P5">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/JuguetePerroPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P6">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P7">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/JuguetePerroPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P8">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <!--TerceraFila-->
+        <div class="P9">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/JuguetePerroPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P10">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P11">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/JuguetePerroPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P12">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <!--CuartaFila-->
+        <div class="P13">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P14">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P15">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P16">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <!--QuintaFila-->
+        <div class="P17">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P18">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P19">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+        <div class="P20">  <a href="#" data-toggle="tooltip" data-html="true" title="Comida Gato Prueba">
+            <img src="Imagenes/Productos/Comidas/ComidaGatoPrueba.jpg" class="card-img-top">
+        </a>3€</div>
+    </div>
+
+ <!--************************************Pasar a la siguiente Página**********************************-->
+<div class="PagPadre"> 
+    <div class="Páginas">
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item"><a class="page-link" href="#"><</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">></a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<!--*********************************Pie de página**************************************--------->
+
+<footer class="row bg-dark justify-content-center mt-3 p-3">
+    <h5 class="text-center text-white">Veterinaria Zootopia</h5>
+</footer>
+
+
+<!-------------------------------Vantana Login--------------------------------------------------->
+    <section class="modal" id="entrar">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <div class="modal-title">
+                        Entra en sesión
+                    </div>
+                    <span data-dismiss="modal">X</span>
+                </div>
+                <form>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tu email">
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña:</label>
+                            <input type="password" class="form-control" placeholder="Introduce tu contraseña">
+                        </div>     
+                    </div>
+                    <div class="modal-footer text-right">
+                        <input type="submit" class="btn btn-primary" value="Entrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- VENTANA MODAL DE REGISTRO -->
+    <section class="modal" id="registro">
+        <div class="modal-dialog">
+            <form>
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-white">
+                        <div class="modal-title">
+                            Registro de usuario
+                        </div>
+                        <span data-dismiss="modal">X</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Nombre:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Apellidos:</label>
+                            <input type="text" class="form-control" placeholder="Introduce tus apellidos" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" placeholder="Introduce tu correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña:</label>
+                            <input type="password" class="form-control" required>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer text-right">
+                        <input type="submit" class="btn btn-primary" value="Registrar">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+       
+
+</main>
+
+
+
+
+
+
+
+
+<!--Hacer que funcionen botón de las cookies, desplegable etc-->
+<script>
+    $(function () {
+        //Habilita los tooltips
+        $('[data-toggle="tooltip"]').tooltip({
+            container: 'body'
+        });
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
